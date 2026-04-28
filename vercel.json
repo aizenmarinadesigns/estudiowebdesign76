@@ -1,0 +1,18 @@
+{
+  "buildCommand": "next build",
+  "outputDirectory": ".next",
+  "installCommand": "npm install",
+  "devCommand": "next dev",
+  "env": {
+    "RESEND_API_KEY": {
+      "description": "API Key de Resend para envío de emails"
+    },
+    "EMAIL_FROM": {
+      "description": "Email remitente para formulario de contacto"
+    },
+    "CONTACT_EMAIL": {
+      "description": "Email destinatario de mensajes de contacto"
+    }
+  },
+  "regions": ["iad1"]
+}
